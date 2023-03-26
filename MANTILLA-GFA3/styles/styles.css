@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Poppins:wght@500&family=Press+Start+2P&display=swap');
+
+body{
+    background-color: #b7dcff;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Press Start 2P', cursive;
+    color: #ff028e;
+}
+
+.exp{
+    font-size: 13px;
+    text-align: center;
+}
+
+#machine{
+    display: flex;
+    padding: 20px;
+    margin-left: 29%;
+    margin-right: 29%;
+    text-align: center;
+    color: aliceblue;
+    background-color: beige;
+}
+
+#machine h3{
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+#machine p{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+}
+
+#machine1{
+    padding: 20px;
+    margin: 25px;
+    border: solid 1px black;
+    background-color: #ff9819;
+}
+
+#machine2{
+    padding: 20px;
+    margin: 25px;
+    border: solid 1px black;
+    background-color: #55eb8c;
+}
+
+#machine3{
+    padding: 20px;
+    margin: 25px;
+    border: solid 1px black;
+    text-align: center;
+    background-color: 	#807cfa;
+}
+
+#random{
+    margin-left: 27%;
+}   
+
+#random button{
+    border: solid #ff028e;
+    color: #e47db6;
+} 
+
+#random button:hover{
+    border: solid #ff028e;
+    background-color: #e47db6;
+    color: white;
+} 
+
+.output{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.output p{
+    margin: 0;
+    font-family: 'Pangolin', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
